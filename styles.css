@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
+
+#container > div {
+    display: inline-block;
+    flex-grow: 4;
+    width:25%;
+    height: 25%;
+    /*background-color: red;*/
+    border: 2px solid white;
+}
+
+.changedColor {
+    background-color: blue;
+}
