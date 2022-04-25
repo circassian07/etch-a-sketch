@@ -12,4 +12,10 @@ for (let i=0; i < squares.length; i++) {
     })
 }
 
+const btnClear = document.getElementById('clear')
 
+btnClear.addEventListener('click', e => {
+    for (let i=0; i < squares.length; i++) {
+          squares[i].classList.remove('changedColor');
+    }
+})
